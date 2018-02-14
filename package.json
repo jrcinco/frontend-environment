@@ -1,0 +1,32 @@
+{
+  "name": "frontend-environment",
+  "version": "0.0.1",
+  "description": "How to set a frontend environment.",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass -o dist/css src/scss --source-map-embed",
+    "compressed-css": "node-sass -o dist/css src/scss --output-style compressed --source-map-embed",    
+    "watch:css": "onchange src/scss/*.scss -- npm run css",
+    "serve": "browser-sync start --server dist --files dist",
+    "dev": "parallelshell 'npm run watch:css' 'npm run serve'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrcinco/frontend-environment.git"
+  },
+  "keywords": [
+    "huambra"
+  ],
+  "author": "Jhonny Ramirez Zeballos",
+  "license": "GNU General Public License v3.0",
+  "bugs": {
+    "url": "https://github.com/jrcinco/frontend-environment/issues"
+  },
+  "homepage": "https://github.com/jrcinco/frontend-environment#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "node-sass": "^4.7.2",
+    "onchange": "^3.3.0",
+    "parallelshell": "^3.0.2"
+  }
+}
