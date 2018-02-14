@@ -5,4 +5,6 @@ How to set a frontend environment.
 - [onchange](https://www.npmjs.com/package/onchange)
 - [browser-sync](https://www.npmjs.com/package/browser-sync)
 - [parallelshell](https://www.npmjs.com/package/parallelshell)
+- [autoprefixer](https://www.npmjs.com/package/autoprefixer)
+- [babel](https://babeljs.io/)
 

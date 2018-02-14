@@ -1,6 +1,10 @@
 body {
-  background-color: grey; }
+  background-color: white; }
   body h1 {
-    color: white; }
+    color: black;
+    display: flex; }
 
-/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAiZGlzdC9jc3MvbWFpbi5jc3MiLAoJInNvdXJjZXMiOiBbCgkJInNyYy9zY3NzL21haW4uc2NzcyIKCV0sCgkibmFtZXMiOiBbXSwKCSJtYXBwaW5ncyI6ICJBQUFBLEFBQUEsSUFBSSxDQUFDO0VBQ0QsZ0JBQWdCLEVBQUUsSUFBSSxHQUl6QjtFQUxELEFBRUksSUFGQSxDQUVBLEVBQUUsQ0FBQztJQUNDLEtBQUssRUFBRSxLQUFLLEdBQ2YiCn0= */
+.backgnd {
+  background-color: yellow;
+  color: blue; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zY3NzL21haW4uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHdCQUF1QixFQUsxQjtFQU5EO0lBR1EsYUFBWTtJQUNaLGNBQWEsRUFDaEI7O0FBR0w7RUFDSSx5QkFBd0I7RUFDeEIsWUFBVyxFQUNkIiwiZmlsZSI6Im1haW4uY3NzIn0= */
